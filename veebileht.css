@@ -35,7 +35,6 @@ p {
 
 .pealkiri{
   text-align: center;
-  text-size: 50px
   text-indent: 5px;
   font-family: 'Bookman';
   color: rgb(51, 51, 0);
@@ -81,3 +80,71 @@ p {
   background-color:#FAF0E6;
 }
 
+
+
+header li{
+  display: inline;
+  padding: 0 20px 0 20px;
+  font-size: 20px;
+}
+nav a:hover{
+  font-weight: bold;
+}
+header a{
+  border: 2px solid rgb(51, 51, 0);
+  border-radius: 4px;
+  width: 200px;
+  margin: 70px auto 20px 70px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(51, 102, 0);
+}
+.easteregg a{
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+.tabel{
+  border: 2px solid rgb(51, 51, 0);
+  border-radius: 4px;
+  text-align: center;
+  width: 200px;
+  margin: 70px auto 20px 70px;
+  padding: 10px 10px;
+}
+.mmtestidepit img{
+  width: 700px;
+}
+.mmajakavapilt img{
+  width: 600px;
+}
+.general_padding{
+  margin-left: 30px;
+}
+.mmpilt{
+  margin-left: 100px;
+}
+.mmtabel{
+  margin-left: 160px;
+}
+.kujundus2_pk_mm{
+  border: 2px solid rgb(51, 51, 0);
+  border-radius: 4px;
+  text-align: center;
+  width: 200px;
+  margin: 70px auto 20px 70px;
+  margin-left: 150px;
+  padding: 10px 10px;
+}
+.kmpilt{
+  margin-left: 20px;
+}
+nav a{
+  border: 2px solid rgb(51, 51, 0);
+  border-radius: 4px;
+  width: 200px;
+  margin: 200px auto 20px 70px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(51, 102, 0);
+}
