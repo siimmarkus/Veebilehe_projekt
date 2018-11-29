@@ -6,9 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tunniplaanid | Ajakavad</title>
     <link rel="stylesheet" href="veebileht.css">
+    <script type="text/javascript">
+      function changeImage() {
+        if (document.getElementById("esilehe_pilt").src.endsWith('tu.jpg')) 
+        {
+            document.getElementById("esilehe_pilt").src = "tu2.JPG";
+        }
+        else 
+        {
+            document.getElementById("esilehe_pilt").src = "tu.jpg";
+        }
+      }
+    </script>    
 </head>
 <body>
-    
+
     <div>
         <h1>Tunniplaanid ja ajakavad</h1>
     </div>
@@ -29,7 +41,7 @@
       </header>
     </div>
     <div>
-      <img src="tu.jpg" class="general_padding">
+      <img src="tu.jpg" class="general_padding" id='esilehe_pilt' onclick="changeImage()"/>
     </div>
     <div>
       <p class="keskjoondus kiri"></p>
