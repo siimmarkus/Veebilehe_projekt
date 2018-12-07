@@ -117,6 +117,10 @@ header a{
 .mmajakavapilt img{
   width: 600px;
 }
+.tu_pilt img{
+  width: 685px;
+  margin-left: 30px;
+}
 .general_padding{
   margin-left: 30px;
 }
